@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/about.png</file>
+        <file>img/bagraund.png</file>
+        <file>img/beaten.png</file>
+        <file>img/exit.png</file>
+        <file>img/field.png</file>
+        <file>img/ship.png</file>
+        <file>img/shot.png</file>
+        <file>img/start.png</file>
+        <file>img/picture.png</file>
+        <file>img/sett.png</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>sound/miss.mp3</file>
+        <file>sound/pirati.mp3</file>
+        <file>sound/soundshot.mp3</file>
+    </qresource>
+</RCC>

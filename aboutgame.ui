@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutGame</class>
+ <widget class="QDialog" name="AboutGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>522</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="minimumSize">
+      <size>
+       <width>500</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>500</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;The playing field is each player's 10 × 10 square, on which a fleet of ships is placed. Horizontal lines are usually numbered from top to bottom, and vertical lines are numbered from left to right. At the same time, letters of the Ukrainian (Latin) alphabet are used. Sometimes the word &amp;quot;republic&amp;quot; is used because it is a 10 letter word where no letter is repeated. Since there are different options for drawing the coordinate system, it is better to agree on this in advance.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;There are ten ships in total:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;1 ship - a row of 4 cells (&amp;quot;battleship&amp;quot;, or &amp;quot;four-decker&amp;quot;)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;  2 ships - a row of 3 cells (&amp;quot;cruisers&amp;quot;, or &amp;quot;three-deckers&amp;quot;)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;3 ships - a row of 2 cells (&amp;quot;destroyers&amp;quot;, or &amp;quot;double-deckers&amp;quot;)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;4 ships - 1 cell (&amp;quot;submarines&amp;quot;, or &amp;quot;single deck&amp;quot;)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;Another version of the name is tubular (eg two-pipe).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;When placed, ships cannot touch each other at the corners (there are, however, variants when this is not prohibited). Rarely (by agreement), but there are variants of the game when the ships can be in the form of a square (&amp;quot;four-deck&amp;quot;) or the letter &amp;quot;G&amp;quot; (&amp;quot;three-&amp;quot; and &amp;quot;four-deck&amp;quot;).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;Next to &amp;quot;their&amp;quot; square, they draw a &amp;quot;stranger's&amp;quot; square of the same size, only empty. This is the area of the sea where the enemy's ships travel.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;When an enemy ship is hit, a cross is placed on someone else's field. The one who hit shoots again.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;Finding and sinking enemy ships Before the start of hostilities, the players cast lots or agree on who will go first.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;The player making the move takes a shot - calls out the coordinates of the cell in which, in his opinion, the opponent's ship is located, for example, &amp;quot;K1!&amp;quot;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','RobotoDraft','Helvetica','Arial','sans-serif'; font-size:14pt; color:#000000; background-color:#f5f5f5;&quot;&gt;If the shot hits a cell that is not occupied by any of the enemy's ships, the player gets the answer &amp;quot;By!&amp;quot; and the one who shot puts a dot on someone else's square in that place. The right of movement goes to the opponent. If the shot hits the cell where the multi-deck ship is located (the size is more than 1 cell), then the player gets the answer &amp;quot;Wounded!&amp;quot; or &amp;quot;Hit!&amp;quot;, except in one case (see point 3). The player who shot puts a cross on the other side's field in this cell, and his opponent puts a cross on his field also in this cell. The player who shot gets another shot. If the shot hits the cell where the single-deck ship is located, or the last unhit cell of the multi-deck ship, the player hears &amp;quot;Sunk!&amp;quot; or &amp;quot;Killed!&amp;quot;. Both players mark the sunken ship on the sheet. The player who shot gets another shot. The winner is the one who sinks all 10 enemy ships first. Opponents study each other's playing fields and confirm the result if there were no violations.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
